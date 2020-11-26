@@ -1,0 +1,47 @@
+.usuario-info {
+    margin: 20px auto 0;
+    padding: 0 20px;
+    max-width: 700px;
+
+}
+
+.usuario-info article{
+    background: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.usuario-info h3 {
+    color:rgb(14, 14, 14);
+    background:rgb(205, 190, 190);
+}
+
+.usuario-info article p{
+    font-size: 16px;
+    color:dimgray;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.usuario-info article a{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: none;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.usuario-info article a:hover{
+    background: blue;
+    color: white;
+}

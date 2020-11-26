@@ -1,0 +1,80 @@
+.usuario-insert input{
+    background: aliceblue;
+    border:  1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top:  5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: dimgray;
+
+}
+
+.usuario-insert label {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.usuario-insert legend{
+
+    border:  1px solid black;
+    border-radius: 5px;
+    left: 10px;
+    padding: 5px;
+    font-size: 14px;
+
+    margin-top:  5px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.usuario-insert {
+    margin: 20px auto 0;
+    padding: 0 20px;
+    max-width: 700px;
+
+}
+
+.usuario-insert article{
+    background: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.usuario-insert h3 {
+    color:rgb(14, 14, 14);
+    background:rgb(205, 190, 190);
+}
+
+.usuario-insert article p{
+    font-size: 16px;
+    color:dimgray;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.usuario-insert article a{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: none;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.usuario-insert article a:hover{
+    background: blue;
+    color: white;
+}

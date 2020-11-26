@@ -1,0 +1,57 @@
+
+  
+  /* --- */
+  
+  .super-title * {
+    font-size: 2.6em;
+    font-weight: 800;
+
+  }
+  .typewriter-title {
+    left: 50%;
+    color: #fff;
+    border-radius: 10px;
+    top: 50%;
+    font-weight:bold;
+    position: absolute;
+    padding: 20px;
+    transform : translate(-50%,-50%);
+
+    
+  }
+  .typewriter-title * {
+    font-size: 3.2em;
+    font-family: 'Marck Script', cursive;
+    color: #fff;
+
+    
+  }
+  .typewriter-title h2 {
+    font-weight: 500;
+    color: #4a92a8;
+  }
+  .typewriter-title h1 {
+    font-weight: 200;
+  }
+  .typewriter {
+    width: fit-content;
+    padding: 0 5px;
+    border-right: 2px #4a92a8 solid;
+    /* font-family: 'Anonymous Pro', monospace; */
+    text-align: left;
+    white-space: nowrap;
+    animation: cursor .6s infinite normal;
+  }
+  @keyframes cursor {
+    from { border-right-color: #4a92a8; }
+    to   { border-right-color: transparent; }
+  }
+  @media (max-width: 700px) {
+    .super-title * {
+      font-size: 6vw;
+    }
+    .typewriter-title * {
+      font-size: 7vw;
+    }
+  }
+  

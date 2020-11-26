@@ -1,0 +1,27 @@
+.banner {
+    height: 500px;
+
+}
+.title{
+left: 50%;
+background: linear-gradient(90deg,rgba(87, 79, 150, 0.865) 0%, rgba(73,63,252,1)100%);
+color: #fff;
+border-radius: 10px;
+top: 50%;
+font-weight:bold;
+position: absolute;
+padding: 20px;
+transform : translate(-50%,-50%);
+
+}
+
+strong{
+    left: 50%;
+    color: #fff;
+    border-radius: 10px;
+    top: 70%;
+    position: absolute;
+    padding: 10px;
+    transform : translate(-50%,-50%);
+    
+    }

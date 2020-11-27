@@ -4,13 +4,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-// var url_atual = window.location.href;
+var url_atual = window.location.href;
 
 
-// if(url_atual != "http://localhost:3000/home"){
-//   window.location.href = "/home"
+if(url_atual != "http://richarddevs.com.br/home"){
+  window.location.href = "/home"
 
-// }
+}
 
 ReactDOM.render(
   <React.StrictMode>

@@ -26,7 +26,7 @@ export default function ContactUs() {
 
   return (
    
-<div class="container" data-animate-effect="fadeInLeft">
+<div data-animate-effect="fadeInLeft">
 				
 				<div class="row">
 					<div class="container">
@@ -35,9 +35,9 @@ export default function ContactUs() {
           
 				</div>
         <br /><br />
-				<form className="contact-form container card text-center col-lg-10" onSubmit={sendEmail}>
+				<form className="contact-form container card text-center col-lg-10 col-md-12 co-sm-12" onSubmit={sendEmail}>
 
-<div class="form container">
+<div class="form container ">
   <input type="text" name="user_name" autocomplete="off" required />
   <label for="text" class="label-name">
     <span class="content-name">
@@ -65,7 +65,7 @@ export default function ContactUs() {
 <br></br>
 <div >
     
-  <textarea className="form-group  areatext" placeholder="   Conte-me o que precisa" name="message" required />
+  <textarea className="form-group areatext" placeholder="   Conte-me o que precisa" name="message" required />
   <label for="text" class="label-name">
     <span class="content-name">
     </span>

@@ -4,13 +4,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-var url_atual = window.location.href;
-
-
-if(url_atual != "http://richarddevs.com.br/home"){
-  window.location.href = "/home"
-
-}
 
 ReactDOM.render(
   <React.StrictMode>

@@ -104,11 +104,14 @@
     }
     .navbar-logo {
        
-        
         color: #fff;
-    justify-self: center;
-    margin-right: 35px;
-    cursor: pointer;
+        justify-self: center;
+        margin-right: 35px;
+        cursor: pointer;
+    
+    
+        transform: translate(25% 50%);
+
 
 
     }

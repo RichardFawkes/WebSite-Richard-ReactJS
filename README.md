@@ -18,6 +18,6 @@ npm run build
 Desdobramento, desenvolvimento
 Este projeto está pronto para implantação utilizando o Netlify , graças à adição de um _redirectsarquivo localizado na pasta pública. Se você estiver interessado em implantar em outras plataformas, analise as soluções sugeridas .
 
-PREVIEW => https://master.d3vany8y2jfgs5.amplifyapp.com/home
+PREVIEW => https://master.d13zrmxir4aqrb.amplifyapp.com/home
 
 

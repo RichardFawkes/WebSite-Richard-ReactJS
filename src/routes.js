@@ -13,6 +13,8 @@ const Routes = () =>(
 
     <BrowserRouter>
     <Switch>
+    <Route path = "" component={Home} />
+
         <Route path = "/contact" component={Contact} />
         <Route path = "/home" component={Home} />
 

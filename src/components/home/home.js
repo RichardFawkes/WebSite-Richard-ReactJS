@@ -22,8 +22,9 @@ class Home extends Component {
             
             <div style={{ textAlign: 'center', background: 'linear-gradient(90deg,rgb(0,0,0) 0%, rgb(15,19,37,100%)100%' }}>
             <Parallax  >
+				<div class="typewriter"><TypeWriter /></div>
                 <div className="banner">
-                <TypeWriter />
+                
 <strong className="">Sejam bem vindos a Richard Web Dev, Empresa focada no desenvolvimento de sistemas e design web</strong>
                 </div>
             </Parallax>
@@ -47,7 +48,7 @@ class Home extends Component {
 		          </div>
 		        </div>
 
-		        <div class="col s12 m4 ">
+		        <div class="col-lg-4 s3  ">
 		          <div class="icon-block card ">
 		            <h2 class="center "><i class="fa fa-users"></i>
 					 <h5 class="center  ">Focamos na experiencia do usuario</h5>
@@ -58,7 +59,7 @@ class Home extends Component {
 		          </div>
 		        </div>
 
-		        <div class="col s3 m2 ">
+		        <div class="col-lg-4 s3  ">
 		          <div class="icon-block card ">
 				  <br></br>
 		            <h2 class="center brown-text"><i class="fa fa-cog"></i></h2>

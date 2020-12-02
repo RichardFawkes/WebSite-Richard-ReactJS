@@ -1,8 +1,18 @@
 .banner {
-    height: 400px;
+    height: 250px;
     background: linear-gradient(90deg,rgb(0,0,0) 0%, rgb(15,19,37,100%)100%);
 
 
+}
+@media screen and (max-width: 400px) {
+
+.typewriter{
+position: absolute;
+top: 20%;
+left: 50%;
+  padding: 20px;
+    transform: translate(-50%,-50%);
+}
 }
 
 .fundo{

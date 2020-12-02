@@ -8,12 +8,13 @@ import EditarUsuario from './pages/usuario/editar';
 import DeletarUsuario from './pages/usuario/deletar';
 import Home from './components/home/home';
 import Contact from './components/contact/contact';
+import Navbar from './components/Navbar/Navbar';
 
 const Routes = () =>(
 
     <BrowserRouter>
     <Switch>
-    <Route path = "" component={Home} />
+    <Route exact path = "/" component={Home} />
 
         <Route path = "/contact" component={Contact} />
         <Route path = "/home" component={Home} />

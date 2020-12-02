@@ -32,8 +32,8 @@ class Home extends Component {
 <div class="section">
 
 		      <div class="row">
-		        <div class="col s12 m4">
-		          <div class="icon-block">
+		        <div class="col s12 m4 ">
+		          <div class="icon-block card">
 		            <h2 class="center brown-text"><i class="fas fa-bolt"></i></h2>
 		            <h5 class="center">Desenvolvimento rapido!</h5>
 
@@ -42,7 +42,7 @@ class Home extends Component {
 		        </div>
 
 		        <div class="col s12 m4">
-		          <div class="icon-block">
+		          <div class="icon-block card">
 		            <h2 class="center brown-text"><i class="fa fa-users"></i></h2>
 		            <h5 class="center">Focamos na experiencia do usuario</h5>
 
@@ -51,7 +51,7 @@ class Home extends Component {
 		        </div>
 
 		        <div class="col s12 m4">
-		          <div class="icon-block">
+		          <div class="icon-block card">
 		            <h2 class="center brown-text"><i class="fa fa-cog"></i></h2>
 		            <h5 class="center">Facil de trabalhar</h5>
 

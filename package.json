@@ -15,7 +15,6 @@
     "emailjs": "^3.4.0",
     "emailjs-com": "^2.6.4",
     "moment": "^2.29.1",
-    "next": "^9.1.6-canary.5",
     "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",

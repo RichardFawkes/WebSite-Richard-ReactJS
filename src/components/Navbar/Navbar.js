@@ -19,7 +19,7 @@ render() {
         <nav className="NavbarItems">
 
 
-            <a href="https://api.whatsapp.com.br/send?phone=5511974415837&text=Opa!%20acabei%20de%20visitar%20seu%20site%20,%20Pode%20me%20ajudar?" class="float" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=5511974415837&text=Opa!%20acabei%20de%20visitar%20seu%20site%20,%20Pode%20me%20ajudar?" class="float" target="_blank">
             <i class="fab fa-whatsapp my-float"></i>
 </a>
 

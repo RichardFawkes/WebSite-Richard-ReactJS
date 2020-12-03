@@ -23,7 +23,7 @@ render() {
             <i class="fab fa-whatsapp my-float"></i>
 </a>
 
-            <a  href="/home"> <h2 className="navbar-logo">Richard Web Developer</h2></a>
+            <a  href="/home"> <h2 className="navbar-logo  ">R</h2></a>
             
 
             <div className="menu-icon" onClick={this.handleClick}>

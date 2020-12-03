@@ -19,10 +19,16 @@ left: 50%;
 
 }
 
-.fundo{
-    background: linear-gradient(90deg,rgba(0, 0, 0, 0.029) 0%, rgba(55, 69, 131, 0.365)100%);
-    border-radius: 10px;
-}
+.card:hover{
+    transform: rotate(20deg);
+    box-shadow: 0 2px 20px rgba(0,0,0,.2);
+    }
+    .card:hover:after{
+    transform: rotate(10deg);
+    box-shadow: 0 2px 20px rgba(0,0,0,.2);
+    }
+
+
 
 .cliente{
     color:#fff;

@@ -1,71 +1,73 @@
-import React, {Component, useState } from 'react';
-import { Route,Link,Switch } from 'react-router-dom';
+import React, { Component } from 'react';
+import api from '../../../components/services/api';
 import './index.css';
-import CriarUsuario from '../criar/';
+import {Link} from 'react-router-dom';
 
+export default class Main extends Component{
 
-// era conhecido: funcitional state-less component
-const Counter = props => {
-    const [counter, setCounter] = useState(0)
-    return <h1>Counter: {counter} <button onClick={()=> setCounter(counter+1)}>+</button></h1>
-}
-
-
-//component class es6
-export default class Main extends Component {
-    constructor(props){
-        super(props)
-        this.state ={
-            usuario: [],
-            valor : 1
-        }
-
+    state = {
+        products:[],
+        productInfo: {},
+        page: 1,
     }
-
- 
-
-    
 
 
     componentDidMount(){
-        setInterval(()=> {
-            this.setState({valor: this.state.valor +1 })
-        },1000)
- fetch(`http:///52.67.53.27:3003/sistema/usuarios`)
- .then (usuario =>
-    usuario.json().then(usuario => this.setState({usuario}))
-    )
+        this.loadProducts();
     }
-    render() {
 
-        
-        const {usuario} = this.state;
+    loadProducts = async (page = 1) => {
+    const response = await api.get(`/products?page=${page}`);
+    const { docs, ...productInfo} = response.data;
 
-        return usuario.map((usuario, index) => (
+    this.setState({products: docs, productInfo, page })
+    };
 
-            
-            <div className="usuario-list">
-
-
-
-                <div key={index}>
-                 <h3>Nome:{usuario.nome}</h3>
-                 <article>
-                 <strong>Salario: {new Intl.NumberFormat('pt-BR', {style: 'currency',currency: 'BRL'}).format(usuario.salario)}</strong>
-                 <p class="btn-secondary"><Link to={`/usuario/${usuario.id}`}>Detalhes</Link></p>
-                 <main>
-                 
-<Counter counter={this.state.valor}/>                   
-                      </main>
-
-                 <br/>
-                 </article>
+    nextPage = () => {
+        const { page, productInfo } = this.state
  
+        if(page === productInfo.pages) return;
 
-                </div>
-            </div>
-        ))
-        
-        }
-    
+        const pageNumber = page + 1;
+
+        this.loadProducts(pageNumber)
+      
+
     }
+    prevPage = () => {
+        const { page, productInfo } = this.state
+
+        if(page === 1) return;
+
+        const pageNumber = page - 1;
+        
+        this.loadProducts(pageNumber)
+
+
+    }
+
+
+
+ render() {
+
+    const { products,page,productInfo } = this.state;
+    //  return <h1>Contagem de Produto: {this.state.products.length}  </h1>
+    return (
+        <div className="products-list">
+            {products.map(products =>(
+                <article key={products._id}>
+                    <strong>{products.title}</strong>
+                    <p>{products.description}</p>
+
+                    <Link to={`/product/${products._id}`}>Acessar</Link>
+                </article>
+            ))}
+        <div className="actions">
+            <button disabled={page === 1} onClick={this.prevPage} >Anterior</button>
+            <button  disabled={page === productInfo.pages} onClick={this.nextPage}>Proximo</button>
+
+        </div>
+        </div>
+    );
+ }
+}

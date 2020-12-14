@@ -19,11 +19,11 @@ render() {
         <nav className="NavbarItems">
 
 
-            <a href="https://api.whatsapp.com/send?phone=5511974415837&text=Opa!%20acabei%20de%20visitar%20seu%20site%20,%20Pode%20me%20ajudar?" class="float" target="_blank">
-            <i class="fab fa-whatsapp my-float"></i>
+            <a href="https://api.whatsapp.com/send?phone=5511974415837&text=Opa!%20acabei%20de%20visitar%20seu%20site%20,%20Pode%20me%20ajudar?" className="float" target="_blank">
+            <i className="fab fa-whatsapp my-float"></i>
 </a>
 
-            <a  href="/home"> <h2 className="navbar-logo  ">R</h2></a>
+            <a  href="/home"> <h2 className="navbar-logo">R</h2></a>
             
 
             <div className="menu-icon" onClick={this.handleClick}>

@@ -1,9 +1,8 @@
-import Header from '../src/components/header/header';
 import Footer from '../src/components/footer/footer';
 import Navbar from '../src/components/Navbar/Navbar';
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";import Routes from './routes';
-import ReactDOM from 'react-dom'
+import Main from './pages/usuario/main';
+import api from './components/services/api';
+import Routes from "./routes";
 import './App.css';
 
 function App() {

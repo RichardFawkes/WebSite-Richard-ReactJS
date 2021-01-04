@@ -7,6 +7,8 @@ import CriarUsuario from './pages/usuario/criar';
 import EditarUsuario from './pages/usuario/editar';
 import DeletarUsuario from './pages/usuario/deletar';
 import Home from './components/home/home';
+import Home2 from './components/home/home2';
+
 import Contact from './components/contact/contact';
 import Navbar from './components/Navbar/Navbar';
 import Main from './pages/usuario/main'
@@ -18,6 +20,7 @@ const Routes = () =>(
     <BrowserRouter> 
     <Switch>
     <Route exact path = "/" component={Home} />
+    <Route exact path = "/home2" component={Home2} />
 
     <Route exact path = "/php" component={Php} />
     <Route exact path = "/main" component={Main} />

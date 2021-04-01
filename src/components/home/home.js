@@ -70,10 +70,13 @@ class Home extends Component {
 		        </div>
 				
 		      </div>
+
+
 			  </div>
-			  <h2 class="cliente"> <br/>
-Clientes | Sistemas e Sites 
-<br/></h2><br/>
+		
+			  <h4 class="cliente"> <br/>
+			  Portfólio de Sites
+<br/></h4><br/>
 		    </div>
 			<Coverflow />
 

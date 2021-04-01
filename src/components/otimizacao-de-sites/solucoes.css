@@ -6,15 +6,42 @@ h1, h3, h4, h5, h6{
 }
 
 
-.grid {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: 3fr 5fr;
-  margin: 100px;
+.card1{
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
 }
-.card{
+body{
+  background-color: #f8f8f8;
+}
 
+
+@media screen and (min-width:768px) {
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  
 }
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+}
+@media screen and (max-width:760px){
+  .grid2{
+    display: grid;
+    grid-template-columns: 1fr ;
+    
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr ;
+    
+  }
+  }
+
+
 .main {
   box-shadow: 0 0px 30px rgba(0,0,0,0.19), 0 10px 10px rgba(0,0,0,0.23);
   border-radius: 40%;
@@ -26,23 +53,9 @@ h1, h3, h4, h5, h6{
 .titulo{
 margin: 1px;
 }
-.side {
-}
-.main,
-.side {
-  padding: 2%;
-  border-radius: 10px
-}
 
-@media(max-width: 600px){
-  .grid {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 3fr 5fr;
-    margin: 100px;
-  }
-  
-}
+
+
 
 #fh5co-main {
   
@@ -149,7 +162,8 @@ color: black;
   }
   .form input:focus + .label-name .content-name,
   .form input:valid + .label-name .content-name {
-    transform: translateY(-150%);
+    transform: 
+    translateY(-150%);
     font-size: 14px;
     left: 0px;
     color: #040404;
@@ -159,14 +173,14 @@ color: black;
     transform: translateX(0%);
   }
   
-  .card {
+  .card1 {
     /* Add shadows to create the "" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
   }
   
   /* On mouse-over, add a deeper shadow */
-  .card:hover {
+  .card1:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   

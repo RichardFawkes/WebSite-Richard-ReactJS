@@ -9,6 +9,7 @@ class TypeWriter extends React.Component {
           <TypewriterTitle
             
             title='Richard Web Developer'
+            
           />
         </React.Fragment>
       );

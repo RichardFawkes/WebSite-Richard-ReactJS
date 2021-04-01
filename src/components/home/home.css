@@ -1,3 +1,9 @@
+
+.light ,.center{
+  color: white !important;
+
+}
+
 .banner {
     height: 250px;
     background: linear-gradient(90deg,rgb(0,0,0) 0%, rgb(15,19,37,100%)100%);

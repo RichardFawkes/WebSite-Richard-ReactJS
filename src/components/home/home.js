@@ -25,22 +25,22 @@ class Home extends Component {
 				<div class="typewriter"><TypeWriter /></div>
                 <div className="banner">
                 
-<strong className="">Sejam bem vindos a Richard Web Dev, Empresa focada no desenvolvimento de sistemas e design web</strong>
+<strong className=""></strong>
                 </div>
             </Parallax>
         <br></br>
 
 <div class="section ">
-
+<div className="container">
 		      <div class="row">
-		        <div class="col-lg-4 s3 ">
+		        <div class="col-lg-4  ">
 					
-		          <div class="icon-block card">
+		          <div class="icon-block ">
 				  <br></br>
 				  <br></br>
 				  
 
-		            <h2 class="center brown-text"><i class="fas fa-bolt"></i></h2>
+		            <h2 class=" center brown-text"><i class="fas fa-bolt"></i></h2>
 		            <h5 class="center">Desenvolvimento rapido!</h5>
 
 		            <p class="light">Desenvolvemos seu site ou sistema dentro do prazo.
@@ -49,7 +49,7 @@ class Home extends Component {
 		        </div>
 
 		        <div class="col-lg-4 s3  ">
-		          <div class="icon-block card ">
+		          <div class="icon-block  ">
 		            <h2 class="center "><i class="fa fa-users"></i>
 					 <h5 class="center  ">Focamos na experiencia do usuario</h5>
 
@@ -60,7 +60,7 @@ class Home extends Component {
 		        </div>
 
 		        <div class="col-lg-4 s3  ">
-		          <div class="icon-block card ">
+		          <div class="icon-block  ">
 				  <br></br>
 		            <h2 class="center brown-text"><i class="fa fa-cog"></i></h2>
 		            <h5 class="center">Facil de trabalhar</h5>
@@ -70,6 +70,7 @@ class Home extends Component {
 		        </div>
 				
 		      </div>
+			  </div>
 			  <h2 class="cliente"> <br/>
 Clientes | Sistemas e Sites 
 <br/></h2><br/>

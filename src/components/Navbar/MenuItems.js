@@ -1,16 +1,27 @@
 export const MenuItems = [
     {
-        title:'Home',
+        title:'HOME',
         url: '/home',
         cName: 'nav-links'
     },
     
     
     {
-        title:'Contato',
+        title:'SOBRE NOS',
         url: '/contact',
         cName: 'nav-links'
     },
+    {
+        title:'OTIMIZAÇÃO DE SITES',
+        url: '/otimizacao-de-sites',
+        cName: 'nav-links'
+    },
+    {
+        title:'CONTATO',
+        url: '/contact',
+        cName: 'nav-links'
+    },
+    
     {
         title:'Criar Usuarios',
         url: '/criarUsuario',

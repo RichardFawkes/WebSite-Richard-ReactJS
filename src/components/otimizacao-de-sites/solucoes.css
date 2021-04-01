@@ -1,0 +1,192 @@
+h1, h3, h4, h5, h6{
+    color: #000;
+  font-weight: 300;
+
+  margin: 0 0 30px 0;
+}
+
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 3fr 5fr;
+  margin: 100px;
+}
+.card{
+
+}
+.main {
+  box-shadow: 0 0px 30px rgba(0,0,0,0.19), 0 10px 10px rgba(0,0,0,0.23);
+  border-radius: 40%;
+  
+}
+.i{
+  font-size: 30px;
+}
+.titulo{
+margin: 1px;
+}
+.side {
+}
+.main,
+.side {
+  padding: 2%;
+  border-radius: 10px
+}
+
+@media(max-width: 600px){
+  .grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 3fr 5fr;
+    margin: 100px;
+  }
+  
+}
+
+#fh5co-main {
+  
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#fh5co-main .fh5co-narrow-content {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding: 4em 0;
+}
+.form-control{
+     -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.1) !important;
+  height: 54px !important;
+  font-size: 18px;
+  font-weight: 300;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px !important;
+}
+#message {
+  height: 530px !important;
+}
+.btn.btn-md {
+  padding: 10px 25px !important;
+}
+.btn-primary {
+  background: #070707cb !important;
+  color: #fff !important;
+  border: 2px solid #221f1f !important;
+border-radius: 0px !important;
+}
+.btn-primary:hover{
+    background: #090808b6 !important;
+color: black;
+}
+
+.entrecontato{
+    justify-content: center;
+    display: flex ;
+    padding: 20px;
+    text-align: center;     
+}
+
+
+
+  h1 {
+    padding-bottom: 30px;
+    font-weight: 900;
+    font-size: 35px;
+  }
+  .form {
+    width: 30%;
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+  }
+  
+  .form input {
+    width: 100%;
+    height: 100%;
+    color: #000;
+    padding-top: 20px;
+    border: none;
+  }
+  .form label {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+  }
+  .form label::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid black;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+  }
+  
+  .content-name {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+  }
+  .form input:focus {
+    outline: none;
+  }
+  .form input:focus + .label-name .content-name,
+  .form input:valid + .label-name .content-name {
+    transform: translateY(-150%);
+    font-size: 14px;
+    left: 0px;
+    color: #040404;
+  }
+  .form input:focus + .label-name::after,
+  .form input:valid + .label-name::after {
+    transform: translateX(0%);
+  }
+  
+  .card {
+    /* Add shadows to create the "" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+      width: 60%;
+  }
+
+
+  .areatext {
+    width: 500px;
+    height: 150px;
+    resize: none;
+    background: rgba(222, 222, 222, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: none;
+    outline: 0;
+    font-size: 14px;
+    color: rgb(17, 16, 16);
+  }
+  
+  

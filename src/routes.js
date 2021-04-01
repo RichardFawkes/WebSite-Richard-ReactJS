@@ -9,6 +9,10 @@ import DeletarUsuario from './pages/usuario/deletar';
 import Home from './components/home/home';
 import Home2 from './components/home/home2';
 
+
+import Otimizacoesdesite from './components/otimizacao-de-sites/otimizacaodesites';
+
+
 import Contact from './components/contact/contact';
 import Navbar from './components/Navbar/Navbar';
 import Main from './pages/usuario/main'
@@ -24,6 +28,7 @@ const Routes = () =>(
 
     <Route exact path = "/php" component={Php} />
     <Route exact path = "/main" component={Main} />
+    <Route exact path = "/otimizacao-de-sites" component={Otimizacoesdesite} />
 
     
     <Route exact path = "/product/:id" component={Products} />

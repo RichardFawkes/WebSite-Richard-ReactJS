@@ -15,18 +15,21 @@ body{
   background-color: #f8f8f8;
 }
 
-
+.titulo2{
+  margin: 20px;
+}
 @media screen and (min-width:768px) {
 .grid2{
   display: grid;
-  grid-template-columns: 1fr 1fr ;
-  
+  grid-template-columns: 1fr ;
 }
+
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   
 }
+.item-banner{width: 400px;}
 }
 @media screen and (max-width:760px){
   .grid2{

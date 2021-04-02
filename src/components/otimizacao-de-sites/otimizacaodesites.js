@@ -17,16 +17,12 @@ export default function ContactUs() {
 
 		<div className="grid2" >
 			
-<article className="side">
-<img class="img-fluid"src="https://www.agenciamacan.com.br/images/otimizacao-de-sites-macan.jpg"/>
-      
-                <br></br>
-                <div class="">
-					
-				</div>
-				</article>
-				<div class="">
-    <h1>Otimização de Sites</h1>
+                
+				<div class="container ">
+				<img class="img-fluid " width="200px" src="https://www.agenciamacan.com.br/images/otimizacao-de-sites-macan.jpg"/>
+
+	<h1 className="">Otimização de Sites</h1>
+	
 	<p><i>Somos uma agência de  especializada em aumentar as vendas da sua empresa através do Google!</i></p>
 	<h2 >Agência Especializada em Otimização de Sites</h2>
 					<p>Nós fornecemos soluções de SEO (otimização de sites) para resolver seus problemas!</p>
@@ -45,7 +41,8 @@ export default function ContactUs() {
 	
 
 		<div class="text-center">
-		<h2 class="text-center">Nosso Serviço de Otimização de Sites</h2>
+		
+		<div className="titulo2"><h2 class="text-center">Nosso Serviço de Otimização de Sites</h2></div>
 		<div class="grid" >
 
 		<div class=" ">

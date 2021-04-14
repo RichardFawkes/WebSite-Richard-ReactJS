@@ -66,6 +66,10 @@
 
 }
 
+a{
+    text-decoration: none !important;
+}
+
 .float{
 	position:fixed;
 	width:60px;

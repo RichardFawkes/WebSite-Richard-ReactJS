@@ -21,8 +21,13 @@ class Home extends Component {
 
             
             <div style={{ textAlign: 'center', background: 'linear-gradient(90deg,rgb(0,0,0) 0%, rgb(15,19,37,100%)100%' }}>
-            <Parallax  >
+            
+			<Parallax  >
+				<div className="container">
 				<div class="typewriter"><TypeWriter /></div>
+				{/* <img style={{  width:'100px' }}src="https://www.pedrodev.com/client/a29f85976f1aaea3.png"></img> */}
+
+				</div>
                 <div className="banner">
                 
 <strong className=""></strong>

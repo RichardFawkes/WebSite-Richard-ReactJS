@@ -8,7 +8,9 @@ class TypeWriter extends React.Component {
           <SuperTitle />
           <TypewriterTitle
             
-            title='Richard Web Developer'
+            title='Hello,
+            I’m Richard Ferreira!
+            '
             
           />
         </React.Fragment>

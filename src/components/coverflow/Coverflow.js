@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import Coverflow from 'react-coverflow';
 import { StyleRoot } from 'radium';
-import imagem1 from './images/1.jpg';
+import imagem1 from './images/1.png';
 import imagem2 from './images/2.png';
-import imagem3 from './images/3.jpg';
-import imagem4 from './images/5.png';
+import imagem3 from './images/3.png';
+import imagem4 from './images/4.png';
 import imagem5 from './images/6.png';
-
+import './Coverflow.css'
 
 
 class Coverflows extends Component {
@@ -14,41 +13,21 @@ class Coverflows extends Component {
 render(){
 
     return(
-  <StyleRoot>
-    <Coverflow
-      displayQuantityOfSide={5}
-      navigation
-      infiniteScroll
-      enableHeading
-      media={{
-        '@media (max-width: 900px)': {
-            width: '100%',
-            background:'transparent',
-          height: '30%'
-        },
-        '@media (min-width: 900px)': {
-            width: '90%',
-            background:'transparent',
-          height: '100px'
-        },
-      
-        '@media (min-width: 1000px)': {
-            width: '100%',
-            background:'transparent',
-            height: '40%'
-          },
-      }}
-    >
-      <img src={imagem1}  data-action="https://www.grupovitahair.com/"/>
-      <img src={imagem2}  data-action="https://www.lojadalata.com"/>
-      <img src={imagem3}  data-action="https://hersheys.lojadalata.com"/>
-      <img src={imagem4}  data-action="https://jorgefloriani.com.br/topografia/"/>
-      <img src={imagem5}  data-action="https://www.nereuimoveis.com.br/"/>
+<div className="container">
+  <hr />
+<div className="row">
+      <a href=""><img className="client" src={imagem1} /></a>
+      <a href=""><img className="client" src={imagem2}  /></a>
+       <a href=""><img className="client" src={imagem3}  /></a>
+       <a href=""><img className="client" src={imagem4}  /></a>
+       <a href=""><img className="client" src={imagem5} /></a>
 
-    </Coverflow>
-  </StyleRoot>
-    );
-    }
+       <a href=""><img className="client" src={imagem5} /></a>
+
+       </div>
+ </div>
+ 
+    )
 }
-
+}
 export default Coverflows;

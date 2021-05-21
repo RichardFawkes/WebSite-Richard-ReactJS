@@ -16,11 +16,11 @@ render(){
 <div className="container">
   <hr />
 <div className="row">
-      <a href=""><img className="client" src={imagem1} /></a>
-      <a href=""><img className="client" src={imagem2}  /></a>
-       <a href=""><img className="client" src={imagem3}  /></a>
-       <a href=""><img className="client" src={imagem4}  /></a>
-       <a href=""><img className="client" src={imagem5} /></a>
+      <a href=""><img className="client img-fluid" src={imagem1} /></a>
+      <a href=""><img className="client img-fluid" src={imagem2}  /></a>
+       <a href=""><img className="client img-fluid" src={imagem3}  /></a>
+       <a href=""><img className="client img-fluid" src={imagem4}  /></a>
+       <a href=""><img className="client img-fluid" src={imagem5} /></a>
 
        <a href=""><img className="client" src={imagem5} /></a>
 

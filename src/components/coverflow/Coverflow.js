@@ -22,7 +22,7 @@ render(){
        <a href=""><img className="client img-fluid" src={imagem4}  /></a>
        <a href=""><img className="client img-fluid" src={imagem5} /></a>
 
-       <a href=""><img className="client" src={imagem5} /></a>
+       <a href=""><img className="client img-fluid" src={imagem5} /></a>
 
        </div>
  </div>
